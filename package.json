@@ -11,6 +11,10 @@
 	"categories": [
 		"Other"
 	],
+	"activationEvents": [
+        "onCommand:opentortoisegit.TortoiseGitLog",
+        "onCommand:opentortoisegit.TortoiseGitSettings"
+	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
