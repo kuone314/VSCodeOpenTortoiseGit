@@ -1,7 +1,7 @@
 {
-  "name": "registercommandline",
-	"displayName": "RegisterCommandLine",
-	"description": "",
+  "name": "opentortoisegit",
+	"displayName": "Open TortoiseGit",
+	"description": "Opne TortoiseGit dialog.",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.82.0"
@@ -9,15 +9,16 @@
 	"categories": [
 		"Other"
 	],
-	"activationEvents": [
-        "onCommand:registercommandline.helloWorld"
-	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "registercommandline.helloWorld",
-				"title": "Hello World"
+				"command": "opentortoisegit.TortoiseGitLog",
+				"title": "TortoiseGit log"
+			},
+			{
+				"command": "opentortoisegit.TortoiseGitSettings",
+				"title": "TortoiseGit settings"
 			}
 		]
 	},
