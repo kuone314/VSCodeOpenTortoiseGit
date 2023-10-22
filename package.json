@@ -3,6 +3,8 @@
 	"displayName": "Open TortoiseGit",
 	"description": "Opne TortoiseGit dialog.",
 	"version": "0.0.1",
+  "repository": "https://github.com/kuone314/VSCodeOpenTortoiseGit",
+  "publisher": "kuone",
 	"engines": {
 		"vscode": "^1.82.0"
 	},
